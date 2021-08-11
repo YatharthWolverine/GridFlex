@@ -19,7 +19,7 @@ const Section1=()=>
            <SectionComponents heading="Hi, Yatharth" src="/mobile.jpg"/>
            <SectionComponents heading="Up to 70% off | Electronics clearance store" src="/tv.jpg"/>
            <SectionGrid heading="Amazon Pay | Book your travel tickets"/>
-           <SectionComponents heading="Sah" src="/book.jpg"/>
+           <SectionComponents heading="Books & Kindle" src="/book.jpg"/>
         </Box>
         </>
     );
