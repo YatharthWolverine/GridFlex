@@ -15,6 +15,12 @@ grid-template-columns:1fr 1fr;
 grid-gap:3px;
 
 `;
+const Img=styled.img`
+&:hover
+{
+    transform:scale(1.1);
+}
+`;
 const data=[{src:"/bus.jpg"},
 {src:"/ticket.jpg"},
 {src:"/train.jpg"},
@@ -28,7 +34,7 @@ const SectionGrid=({heading})=>
             <Box1>
                 {data.map((items,index)=>{
                     return(
-                        <img key={index} src={items.src}/>
+                        <Img key={index} src={items.src}/>
                     );
                 })}
             </Box1>

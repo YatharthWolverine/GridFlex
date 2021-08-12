@@ -9,13 +9,19 @@ color:black;
 padding:1rem;
 height:fit-content;
 `;
+const Img=styled.img`
+&:hover
+{
+    transform:scale(1.1);
+}
+`;
 const SectionComponents=({heading,src})=>
 {
     return(
         <>
         <Box>
             <h1>{heading}</h1>
-            <img src={src}></img>
+            <Img src={src} alt="images"/>
         </Box>
         </>
     );
