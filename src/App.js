@@ -6,6 +6,9 @@ import Section2 from "./components/Section2";
 import Section3 from "./components/Section3";
 import GridBox from './components/GridBox';
 import GridArea from "./components/GridArea";
+import TabsTest from "./components/TabsTest";
+import TabsDemo from "./components/TabsDemo";
+import Jamsfy from "./components/Jamsfy";
 function App() {
   
   return (
@@ -16,8 +19,11 @@ function App() {
       <Section1/>
       <Section2/>
       <Section3/>*/}
-      <GridBox/>
-      <GridArea/>
+      {/*<GridBox/>
+      <GridArea/>*/}
+      {/*<TabsTest/>
+      <TabsDemo/>*/}
+      <Jamsfy/>
   </div>
   
   );

@@ -1,156 +1,36 @@
-.container
+.active
 {
+  text-align:center;
+  display:block;
   display:grid;
-  grid-template-columns: 150px 400px;
-}
-.image-phone:hover
-{
-  transform:scale(1.1);
-}
-.Anchor
-{
-  text-decoration: none;
-}
-.image-fb
-{
-  position:relative;
-  top:4px;
-}
-.image-phone
-{
-position:absolute;
-top:2em;
-left:13em;
-}
-.Button-class:hover
-{
-  background:#385185;
-}
-.input-div
-{
-position:relative;
-top:5em;
-left:29em;
-right:39em;
-padding-left:2em;
-padding-right:-2em;
-padding-bottom:3em;
-border: 1px solid #e2e2e2;
-border-radius:2px;
-}
-.input-element
-{
-  display:inline-block;
-  background:#fafafa;
-  color:#b5a09c;
-  font-size:1em;
-  margin:0.25em;
-  padding:0.25em 1em;
-  display:inline-block;
-background:#fafafa;
-color:#b5a09c;
-font-size:1em;
-margin:0.25em;
-padding:0.25em 1em
-}
-.input-div:hover
-{
-  transform:scale(1.1);
-}
-@media(max-width:1050px)
-{
-  .input-div:hover
-{
-  transform:scale(1.1);
-}
-  .image-phone:hover
-{
-  transform:scale(1.1);
-}
-  .container
-  {
-    display:grid;
-    grid-template-columns: 150px 400px;
-  }
-  .input-div
-{
-position:relative;
-top:5em;
-left:20em;
-right:0em;
-padding-left:2em;
-border: 1px solid gray;
-border-radius:6px;
-}
-.input-element
-{
-  display:inline-block;
-  background:#fafafa;
-  color:#b5a09c;
-  font-size:1em;
-  margin:0.25em;
-  padding:0.25em 1em;
-  display:inline-block;
-background:#fafafa;
-color:#b5a09c;
-font-size:1em;
-margin:0.25em;
-padding:0.25em 1em
-}
-.image-phone
-{
+  align-self:center;
+  align-items:center;
+  grid-template-columns:10rem auto auto;
+  grid-gap:2rem;
+  padding-left:2rem;
+  margin-top:2rem;
   
-position:absolute;
-left:2em;
 }
+.content{
+  display:none;
 }
-  
-@media(max-width:882px)
+.tabs-active
 {
-  .input-div:hover
-  {
-    transform:scale(1.1);
-  }
-  .image-phone:hover
-{
-  transform:scale(1.1);
+  background:yellow;
+  color:green; 
 }
-  .container
-  {
-    display:grid;
-    grid-template-rows: 150px 400px;
-  }
-  .input-div
+.tabs
 {
-position:fixed;
-top:40em;
-left:2em;
-right:10em;
-padding-left:2em;
-border: 1px solid gray;
-border-radius:6px;
+  background:white;
+  color:black;
 }
+.tabs-avengers
+{
+  background:#0e1328;
 
-.input-element
+}
+.tabs-inacative
 {
-  display:inline-block;
-  background:#fafafa;
-  color:#b5a09c;
-  font-size:1em;
-  margin:0.25em;
-  padding:0.25em 1em;
-  display:inline-block;
-background:#fafafa;
-color:#b5a09c;
-font-size:1em;
-margin:0.25em;
-padding:0.25em 1em
+  background:#08508c;
+
 }
-.image-phone
-{
- 
-position:absolute;
-left:2em;
-}
-}
-  
